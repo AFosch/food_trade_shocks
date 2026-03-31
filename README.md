@@ -6,12 +6,16 @@ They allow the user to:
 1. Pre-process the trade and production data from FAO: scripts from``1_Download_&_filter_data`` to ``4_PreprocessFoodEx_&_production_data``.
 2. Implement the topological analysis of the food trade multiplex:``5_Multilayer_Year_map`` and ``6_Plot_alluvial``.
 3. Run the stochastic shock propagation model: ``7_Multiproduct_shocks_years_demand`` (parallel implementation).
-4. Extract the vulnerability estimate for each country and year: ``8_Minimal_tolerance_extraction``.
-5. Reproduce the main plots of the study: ``9_Plots_paper``.
-6. Reproduce some Supplementary Analyses: ``10_IPR`` and ``11_Supplementary_analyses``.
+5. Extract the vulnerability estimate for each country and year: ``8_Minimal_tolerance_extraction``.
+6. Reproduce the main plots of the study: ``9_Plots_paper``.
+7. Reproduce some Supplementary Analyses: ``10_IPR`` and ``11_Supplementary_analyses``. 
 
 Before executing the scripts, the Data must be downloaded from the different sources described in the article and then it should be saved in the ``Data``folder. 
 
-# Installation guidelines
-All packages needed to run this repository can be isntalled by installing the provided ``environment`` file. 
+## Installation guidelines
+All packages needed to run this repository can be easily isntalled by installing the provided ``environment`` file. 
 All simulations have been tested using Python 3.12.2.
+
+## Simulation details
+We provide a parallel implementationf for the stochastic shock propagation model in order to reduce the simulation time for multiple shocks tested.  
+However, performing only one shock simulation takes less than 1 min in a normal computer.
