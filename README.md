@@ -1,7 +1,7 @@
 # food_trade_shocks
 Repository associated to the paper: Diversification of global food trade partners increased inequalities in the exposure to shock risks. 
 The folder ``Scripts`` contains all the scripts needed to reproduce the main results of the analysis, numbered in sequential order. 
-
+ 
 They allow the user to:
 1. Pre-process the trade and production data from FAO: scripts from``1_Download_&_filter_data`` to ``4_PreprocessFoodEx_&_production_data``.
 2. Implement the topological analysis of the food trade multiplex:``5_Multilayer_Year_map`` and ``6_Plot_alluvial``.
@@ -11,3 +11,7 @@ They allow the user to:
 6. Reproduce some Supplementary Analyses: ``10_IPR`` and ``11_Supplementary_analyses``.
 
 Before executing the scripts, the Data must be downloaded from the different sources described in the article and then it should be saved in the ``Data``folder. 
+
+# Installation guidelines
+All packages needed to run this repository can be isntalled by installing the provided ``environment`` file. 
+All simulations have been tested using Python 3.12.2.
