@@ -17,5 +17,5 @@ All packages needed to run this repository can be easily isntalled by installing
 All simulations have been tested using Python 3.12.2.
 
 ## Simulation details
-We provide a parallel implementationf for the stochastic shock propagation model in order to reduce the simulation time for multiple shocks tested.  
+We provide a parallel implementation for the stochastic shock propagation model in order to reduce the simulation time for multiple shocks tested.  
 However, performing only one shock simulation takes less than 1 min in a normal computer.
